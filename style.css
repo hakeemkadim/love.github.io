@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Festive&family=Gideon+Roman&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image : url('https://wallpaperaccess.com/full/4102287.jpg');
+  background-size : cover;
+  background-position : center center;
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content:center;
+  min-height : 100vh;
+  font-family: 'Gideon Roman', cursive;       margin: 0;
+  color:white;
+}
+.countdown-container {
+  display:flex;
+}
+h1 
+{
+  font-weight : normal;
+  margin-top: -10rem ;
+  font-size: 4rem ;
+  margin-top:5rem;
+}
+
+.big-text {
+  font-weight :bold;
+  font-size: 6rem;
+  line-height:1;
+  margin : 0 2rem;
+}
+
+.countdown-el  {
+  text-align:center;
+  }
+
+.countdown-el  span{
+font-size:1.3rem;
+}
+
+
+.console-container {
+ 
+  font-size:1em;
+  text-align:center;
+  display:block;
+  position:absolute;
+  color:white;
+  top:285px;
+  bottom:0;
+  left:0;
+  right:0;
+  margin:auto;
+}
+.console-underscore {
+   display:inline-block;
+  position:relative;
+  top:-0.14em;
+  left:10px;
+}
