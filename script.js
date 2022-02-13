@@ -27,7 +27,7 @@ if(days<=0 && mins<= 0 && hours<=0 && seconds <=0){
     role.style.display = 'block';
   
 }else  {
-    role.style.display = 'none';
+    role.style.display = 'block';
 }
 }
 
