@@ -18,20 +18,14 @@ function countdown()  {
   hoursEl.innerHTML = hours;
   minsEl.innerHTML = mins;
   secondsEl.innerHTML = seconds;
-  var role = document.querySelector('#role');
 
-if(days==0 && mins == 0 && hours==0 && seconds ==0){
-    role.style.display = 'block';
-}else  {
-    role.style.display = 'none';
-}
 
 
 
   countdown();
   setInterval(countdown,1000);
 
-
+}
 
 
 // function([string1, string2],target id,[color1,color2])    
@@ -84,4 +78,6 @@ function consoleText(words, id, colors) {
       visible = true;
     }
   }, 400)
-} }
+}
+
+
