@@ -23,8 +23,14 @@ function countdown()  {
   
 
 if(days<=0 && mins<= 0 && hours<=0 && seconds <=0){
-    seconds=mins=hours=days =0;
-    
+    seconds =0;
+    mins=0;
+    hours=0;
+    days =0;
+    dayEl.innerHTML = 0;
+  hoursEl.innerHTML = 0;
+     minsEl.innerHTML = 0;
+  secondsEl.innerHTML =0;
     role.style.display = 'block';
   
 }else  {
