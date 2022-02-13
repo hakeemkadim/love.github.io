@@ -17,12 +17,16 @@ function countdown()  {
   dayEl.innerHTML = days;
   hoursEl.innerHTML = hours;
   minsEl.innerHTML = mins;
-  secondsEl.innerHTML = seconds;
+  secondsEl.innerHTML =  seconds;
   var role = document.querySelector('#role');
 
+  
 
-if(days==0 && mins == 0 && hours==0 && seconds ==0){
+if(days<=0 && mins<= 0 && hours<=0 && seconds <=0){
+    seconds=mins=hours=days =0;
+    
     role.style.display = 'block';
+  
 }else  {
     role.style.display = 'none';
 }
