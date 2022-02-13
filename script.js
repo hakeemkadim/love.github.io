@@ -14,23 +14,16 @@ function countdown()  {
   const mins = Math.floor(TotalSeconds/60)%24;
   const seconds = Math.floor(TotalSeconds)%60;
 
-  dayEl.innerHTML = days;
-  hoursEl.innerHTML = hours;
-  minsEl.innerHTML = mins;
-  secondsEl.innerHTML =  seconds;
+  dayEl.innerHTML = 0;
+  hoursEl.innerHTML = 0;
+  minsEl.innerHTML = 0;
+  secondsEl.innerHTML =  0;
   var role = document.querySelector('#role');
 
   
 
 if(days<=0 && mins<= 0 && hours<=0 && seconds <=0){
-    seconds =0;
-    mins=0;
-    hours=0;
-    days =0;
-    dayEl.innerHTML = 0;
-  hoursEl.innerHTML = 0;
-     minsEl.innerHTML = 0;
-  secondsEl.innerHTML =0;
+
     role.style.display = 'block';
   
 }else  {
