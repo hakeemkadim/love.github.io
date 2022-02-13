@@ -9,10 +9,10 @@ function countdown()  {
   const currentDate = new Date();
   const TotalSeconds = (valentineDayDate-currentDate)/1000
 
-  const days = Math.floor(TotalSeconds/3600/24);
-  const hours = Math.floor(TotalSeconds/3600)%24;
-  const mins = Math.floor(TotalSeconds/60)%24;
-  const seconds = Math.floor(TotalSeconds)%60;
+  const days = 0;
+  const hours = 0;
+  const mins = 0;
+  const seconds =0;
 
   dayEl.innerHTML = 0;
   hoursEl.innerHTML = 0;
