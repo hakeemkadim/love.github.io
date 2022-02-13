@@ -79,4 +79,4 @@ function consoleText(words, id, colors) {
       visible = true;
     }
   }, 400)
-}
+} }
