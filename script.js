@@ -25,7 +25,7 @@ if(days==0 && mins == 0 && hours==0 && seconds ==0){
 }else  {
     role.style.display = 'none';
 }
-}
+
 
 
   countdown();
