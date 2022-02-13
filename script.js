@@ -21,9 +21,9 @@ function countdown()  {
   var role = document.querySelector('#role');
 
 if(days==0 && mins == 0 && hours==0 && seconds ==0){
-    role.style.display = 'none';
-}else  {
     role.style.display = 'block';
+}else  {
+    role.style.display = 'none';
 }
 }
 
